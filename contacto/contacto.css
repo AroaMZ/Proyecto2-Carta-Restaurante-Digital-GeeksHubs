@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-size: cover;
+}
+html, body {
+    min-height: 100vh;
+    background-color: black!important;
+    background-repeat: no-repeat;
+
+}
+/*menus pantallas grandes*/
+aside{
+    height: 100vh;
+    width: 25vh;
+    background-color: rgba(0, 0, 0, 0.668);
+    
+}
+h1{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    color: #fff;
+}
+ul{
+   line-height: 5em;
+   list-style: none;
+   color: #fff;
+   padding: 0 !important;
+   text-align: center; 
+}
+.lista a{
+    text-decoration: none;
+    color: #fff;
+}
+.lista a:hover{
+    color: #fff;
+}
+.lista:hover{
+    width: 80%;
+    padding: 0;
+    background-color: rgba(255, 0, 0, 0.646);
+    color: #fff;
+}
+.pagina li{
+    color: red;
+}
+.pagina :hover{
+    background-color: #000;
+}
+
+/*redes sociales*/
+.bi-facebook{
+    color: #3b5998;
+}
+.bi-facebook:hover{
+  zoom: 130%;
+  cursor: pointer;
+}
+.bi-twitter{
+    color: #55acee;
+}
+.bi-twitter:hover{
+    zoom: 130%;
+    cursor: pointer;
+}
+.bi-instagram{ 
+    color:#125688; 
+}
+.bi-instagram:hover{ 
+zoom: 130%;
+cursor: pointer;
+}
+
+/*contenido*/
+p{
+    color: #fff;
+    line-height: 1.5em;
+    padding: .7em;
+}
+
+/*footer*/
+footer{
+    font-size: .9em!important;
+}
+footer p{
+    margin: 0.1em!important;
+    font-style: italic!important;
+    color: rgba(255, 255, 255, 0.431)!important;
+    padding: 0!important;
+    text-align: center;
+}
+
+/*formulario*/
+.enviar{
+    width: 100%;
+}
+form{
+    height: 100%;
+}
+
+
+
+
+
+
+ 
+
+
+/*OPENCODE https://codepen.io/realKushal/pen/oYgBZO*/
+.dropdown {
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    
+    font-size: 18px;
+   height: 2em;
+   
+    z-index: 10000;
+    font-family: "Pt sans", monospace, sans-serif;
+  }
+  
+  .dropMain {
+    background-color: rgb(210, 12, 12);
+    border: 1px solid rgb(0, 0, 0);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .dropdown div {
+   
+    cursor: pointer;
+    padding: .5em;
+    background-color: rgb(0, 0, 0);
+   
+  }
+  .drop:hover{
+    background-color: red;
+    width: 100%;
+    padding: .5em;
+  }
+  .dropdown .activeSmall a{
+    color: red;
+}
+.dropdown .activeSmall:hover{
+    background-color: #000;
+}
