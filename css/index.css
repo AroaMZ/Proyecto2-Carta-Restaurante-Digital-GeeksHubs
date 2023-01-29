@@ -8,7 +8,7 @@
 }
 html, body {
     min-height: 100vh;
-    background-image: url("img/entrada.jpeg");
+    background-image: url("../img/entrada.jpeg");
     background-repeat: no-repeat;
     background-size: fixed;
     background-position: center;

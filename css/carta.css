@@ -113,7 +113,7 @@ cursor: pointer;
 }
 
 .botones .entrantes {
-  background-image: url("img/entrantes.jpeg");
+  background-image: url("../img/entrantes.jpeg");
   height: 3em;
   background-repeat: no-repeat;
   background-size: fixed;
@@ -131,7 +131,7 @@ cursor: pointer;
   backdrop-filter: blur(0px);
 }
 .botones .ramen {
-  background-image: url("img/ramen.jpeg");
+  background-image: url("../img/ramen.jpeg");
   height: 3em;
   background-repeat: no-repeat;
   background-size: fixed;
@@ -151,7 +151,7 @@ cursor: pointer;
 }
 
 .botones .sushi {
-  background-image: url("img/sushi.webp");
+  background-image: url("../img/sushi.webp");
   height: 3em;
   background-repeat: no-repeat;
   background-size: fixed;
@@ -171,7 +171,7 @@ cursor: pointer;
 }
 
 .botones .plato {
-  background-image: url("img/plato.jpeg");
+  background-image: url("../img/plato.jpeg");
   height: 3em;
   background-repeat: no-repeat;
   background-size: fixed;
@@ -191,7 +191,7 @@ cursor: pointer;
 }
 
 .botones .postres {
-  background-image: url("img/postres.jpeg");
+  background-image: url("../img/postres.jpeg");
   height: 3em;
   background-repeat: no-repeat;
   background-size: fixed;
@@ -216,7 +216,7 @@ cursor: pointer;
 }
 
 .ramen1 {
-  background-image: url("img/ramen1.jpeg");
+  background-image: url("../img/ramen1.jpeg");
   height: 60vh;
   overflow: hidden;
   background-position: center;
@@ -228,7 +228,7 @@ cursor: pointer;
 }
 
 .ramen2 {
-  background-image: url("img/ramen2.jpeg");
+  background-image: url("../img/ramen2.jpeg");
   height: 60vh;
   overflow: hidden;
   background-position: left;
@@ -240,7 +240,7 @@ cursor: pointer;
 }
 
 .ramen3 {
-  background-image: url("img/ramen3.jpeg");
+  background-image: url("../img/ramen3.jpeg");
   height: 60vh;
   overflow: hidden;
   background-position: right;
@@ -252,7 +252,7 @@ cursor: pointer;
 }
 
 .entrante1 {
-  background-image: url("img/entrante1.jpeg");
+  background-image: url("../img/entrante1.jpeg");
   height: 60vh;
   overflow: hidden;
   background-size: cover;
@@ -266,7 +266,7 @@ cursor: pointer;
 }
 
 .entrante2 {
-  background-image: url("img/entrante2.jpeg");
+  background-image: url("../img/entrante2.jpeg");
   height: 60vh;
   overflow: hidden;
   background-position: center;
@@ -278,7 +278,7 @@ cursor: pointer;
 }
 
 .entrante3 {
-  background-image: url("img/entrante3.jpeg");
+  background-image: url("../img/entrante3.jpeg");
   height: 60vh;
   overflow: hidden;
   background-position: right;
@@ -290,7 +290,7 @@ cursor: pointer;
 }
 
 .sushi1 {
-  background-image: url("img/sushi1.jpeg");
+  background-image: url("../img/sushi1.jpeg");
   height: 60vh;
   overflow: hidden;
   background-position: center;
@@ -302,7 +302,7 @@ cursor: pointer;
 }
 
 .sushi2 {
-  background-image: url("img/sushi2.webp");
+  background-image: url("../img/sushi2.webp");
   height: 60vh;
   overflow: hidden;
   background-position: center;
@@ -314,7 +314,7 @@ cursor: pointer;
 }
 
 .sushi3 {
-  background-image: url("img/sushi3.jpeg");
+  background-image: url("../img/sushi3.jpeg");
   height: 60vh;
   overflow: hidden;
   background-position: center;
@@ -326,7 +326,7 @@ cursor: pointer;
 }
 
 .platos1 {
-  background-image: url("img/platos1.jpeg");
+  background-image: url("../img/platos1.jpeg");
   height: 60vh;
   overflow: hidden;
   background-position: center;
@@ -338,7 +338,7 @@ cursor: pointer;
 }
 
 .platos2 {
-  background-image: url("img/platos2.jpeg");
+  background-image: url("../img/platos2.jpeg");
   height: 60vh;
   overflow: hidden;
   background-position: center;
@@ -350,7 +350,7 @@ cursor: pointer;
 }
 
 .platos3 {
-  background-image: url("img/platos3.jpg");
+  background-image: url("../img/platos3.jpg");
   height: 60vh;
   overflow: hidden;
   background-position: center;
@@ -362,7 +362,7 @@ cursor: pointer;
 }
 
 .postres1 {
-  background-image: url("img/postres1.jpeg");
+  background-image: url("../img/postres1.jpeg");
   height: 60vh;
   overflow: hidden;
   background-position: center;
@@ -374,7 +374,7 @@ cursor: pointer;
 }
 
 .postres2 {
-  background-image: url("img/postres2.jpeg");
+  background-image: url("../img/postres2.jpeg");
   height: 60vh;
   overflow: hidden;
   background-position: center;
@@ -386,7 +386,7 @@ cursor: pointer;
 }
 
 .postres3 {
-  background-image: url("img/postres3.jpeg");
+  background-image: url("../img/postres3.jpeg");
   height: 60vh;
   overflow: hidden;
   background-position: center;
