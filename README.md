@@ -7,3 +7,5 @@ El objetivo realizar una página web con carta de restaurante digital.
 El formato se estable con css y bootstrap 5 y las animaciones mediante javascript.
 
 La web es responsive para poder visualizarlo en diferentes dispositivos.
+
+[Proyecto2-Carta-Restaurante-Digital-GeeksHubs](https://aroamz.github.io/Proyecto2-Carta-Restaurante-Digital-GeeksHubs/index.html)
