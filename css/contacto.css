@@ -8,16 +8,9 @@
 }
 html, body {
     min-height: 100vh;
+    width: 100%;
     background-color: black!important;
     background-repeat: no-repeat;
-
-}
-/*menus pantallas grandes*/
-aside{
-    height: 100vh;
-    width: 25vh;
-    background-color: rgba(0, 0, 0, 0.668);
-    
 }
 h1{
     padding-top: 1em;
@@ -51,7 +44,6 @@ ul{
 .pagina :hover{
     background-color: #000;
 }
-
 /*redes sociales*/
 .bi-facebook{
     color: #3b5998;
@@ -74,14 +66,12 @@ ul{
 zoom: 130%;
 cursor: pointer;
 }
-
 /*contenido*/
 p{
     color: #fff;
     line-height: 1.5em;
     padding: .7em;
 }
-
 /*footer*/
 footer{
     font-size: .9em!important;
@@ -93,13 +83,15 @@ footer p{
     padding: 0!important;
     text-align: center;
 }
-
 /*formulario*/
 .enviar{
     width: 100%;
 }
 form{
     height: 100%;
+}
+.fondo{
+    background-image: url("img/contacto.jpeg");
 }
 
 

@@ -6,67 +6,30 @@
   box-sizing: border-box;
   background-size: cover;
 }
+body, html {
 
-html,
-body {
-  min-height: 100vh;
   background-color: #000;
-  background-repeat: no-repeat;
-  background-size: fixed;
-  background-position: center;
-  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+  min-width: 62vh;
 }
-
-section {
-  background-color: #000;
-}
-
-/*menus patantalla grande*/
-aside {
-  height: 100vh;
-  width: 25vh;
-  background-color: #000
-}
-
-ul {
-  line-height: 5em;
-  list-style: none;
-  color: #fff;
-  padding: 0 !important;
-  text-align: center;
-}
-
-h1 {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  text-align: center;
-  color: #fff;
-}
-
-.lista a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.lista a:hover {
-  color: #fff;
-}
-
-.lista:hover {
-  width: 80%;
-  padding: 0;
-  background-color: rgba(255, 0, 0, 0.646);
-  color: #fff;
-}
-
-.active :hover {
+header{
+  min-height: 5vh;
+  min-width: 100%;
   background-color: #000;
 }
+.prueba {
+  background-color: #000;
+  min-height: 95vh;
 
-.active li {
-  color: red;
 }
-
+.carta{
+  padding-top: 0.5rem;
+  font-weight: bold;
+  font-size: 3rem;
+}
 /*redes sociales*/
 .bi-facebook{
   color: #3b5998;
@@ -89,420 +52,73 @@ cursor: pointer;
 zoom: 130%;
 cursor: pointer;
 }
-
-
-.prueba {
-  padding-top: 5em !important;
-  padding-bottom: 5em !important;
-}
-
-.botones {
-  background-color: #000;
-}
-
-.botones h3 {
-  font-size: 1.4em;
-  margin-bottom: 0 !important;
-  color: #fff;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.283);
-}
-
-.botones .entrantes {
-  background-image: url("../img/entrantes.jpeg");
-  height: 3em;
-  background-repeat: no-repeat;
-  background-size: fixed;
-  background-position: center;
-  z-index: 0;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.botones .entrantes:hover h3 {
-  visibility: hidden;
-  backdrop-filter: blur(0px);
-}
-.botones .ramen {
-  background-image: url("../img/ramen.jpeg");
-  height: 3em;
-  background-repeat: no-repeat;
-  background-size: fixed;
-  background-position: center;
-  z-index: 0;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.botones .ramen:hover h3 {
-  visibility: hidden;
-  backdrop-filter: blur(0px);
-}
-
-.botones .sushi {
-  background-image: url("../img/sushi.webp");
-  height: 3em;
-  background-repeat: no-repeat;
-  background-size: fixed;
-  background-position: center;
-  z-index: 0;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.botones .sushi:hover h3 {
-  visibility: hidden;
-  backdrop-filter: blur(0px);
-}
-
-.botones .plato {
-  background-image: url("../img/plato.jpeg");
-  height: 3em;
-  background-repeat: no-repeat;
-  background-size: fixed;
-  background-position: bottom;
-  z-index: 0;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.botones .plato:hover h3 {
-  visibility: hidden;
-  backdrop-filter: blur(0px);
-}
-
-.botones .postres {
-  background-image: url("../img/postres.jpeg");
-  height: 3em;
-  background-repeat: no-repeat;
-  background-size: fixed;
-  background-position: center;
-  z-index: 0;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.botones .postres:hover h3 {
-  visibility: hidden;
-  backdrop-filter: blur(0px);
-}
-
-/*pantalla grande*/
-.texto {
-  visibility: hidden;
-}
-
-.ramen1 {
-  background-image: url("../img/ramen1.jpeg");
-  height: 60vh;
-  overflow: hidden;
-  background-position: center;
-  border-radius: 3%;
-}
-
-.ramen1:hover .texto {
-  visibility: visible;
-}
-
-.ramen2 {
-  background-image: url("../img/ramen2.jpeg");
-  height: 60vh;
-  overflow: hidden;
-  background-position: left;
-  border-radius: 3%;
-}
-
-.ramen2:hover .texto {
-  visibility: visible;
-}
-
-.ramen3 {
-  background-image: url("../img/ramen3.jpeg");
-  height: 60vh;
-  overflow: hidden;
-  background-position: right;
-  border-radius: 3%;
-}
-
-.ramen3:hover .texto {
-  visibility: visible;
-}
-
-.entrante1 {
-  background-image: url("../img/entrante1.jpeg");
-  height: 60vh;
-  overflow: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
-  border-radius: 3%;
-}
-
-.entrante1:hover .texto {
-  visibility: visible;
-}
-
-.entrante2 {
-  background-image: url("../img/entrante2.jpeg");
-  height: 60vh;
-  overflow: hidden;
-  background-position: center;
-  border-radius: 3%;
-}
-
-.entrante2:hover .texto {
-  visibility: visible;
-}
-
-.entrante3 {
-  background-image: url("../img/entrante3.jpeg");
-  height: 60vh;
-  overflow: hidden;
-  background-position: right;
-  border-radius: 3%;
-}
-
-.entrante3:hover .texto {
-  visibility: visible;
-}
-
-.sushi1 {
-  background-image: url("../img/sushi1.jpeg");
-  height: 60vh;
-  overflow: hidden;
-  background-position: center;
-  border-radius: 3%;
-}
-
-.sushi1:hover .texto {
-  visibility: visible;
-}
-
-.sushi2 {
-  background-image: url("../img/sushi2.webp");
-  height: 60vh;
-  overflow: hidden;
-  background-position: center;
-  border-radius: 3%;
-}
-
-.sushi2:hover .texto {
-  visibility: visible;
-}
-
-.sushi3 {
-  background-image: url("../img/sushi3.jpeg");
-  height: 60vh;
-  overflow: hidden;
-  background-position: center;
-  border-radius: 3%;
-}
-
-.sushi3:hover .texto {
-  visibility: visible;
-}
-
-.platos1 {
-  background-image: url("../img/platos1.jpeg");
-  height: 60vh;
-  overflow: hidden;
-  background-position: center;
-  border-radius: 3%;
-}
-
-.platos1:hover .texto {
-  visibility: visible;
-}
-
-.platos2 {
-  background-image: url("../img/platos2.jpeg");
-  height: 60vh;
-  overflow: hidden;
-  background-position: center;
-  border-radius: 3%;
-}
-
-.platos2:hover .texto {
-  visibility: visible;
-}
-
-.platos3 {
-  background-image: url("../img/platos3.jpg");
-  height: 60vh;
-  overflow: hidden;
-  background-position: center;
-  border-radius: 3%;
-}
-
-.platos3:hover .texto {
-  visibility: visible;
-}
-
-.postres1 {
-  background-image: url("../img/postres1.jpeg");
-  height: 60vh;
-  overflow: hidden;
-  background-position: center;
-  border-radius: 3%;
-}
-
-.postres1:hover .texto {
-  visibility: visible;
-}
-
-.postres2 {
-  background-image: url("../img/postres2.jpeg");
-  height: 60vh;
-  overflow: hidden;
-  background-position: center;
-  border-radius: 3%;
-}
-
-.postres2:hover .texto {
-  visibility: visible;
-}
-
-.postres3 {
-  background-image: url("../img/postres3.jpeg");
-  height: 60vh;
-  overflow: hidden;
-  background-position: center;
-  border-radius: 3%;
-}
-
-.postres3:hover .texto {
-  visibility: visible;
-}
-
-.platos {
-  height: 70vh;
-}
-
-.platos p {
-  background-color: rgba(0, 0, 0, 0.487);
-  color: #fff;
-  line-height: 2em;
-  text-align: center;
-}
-
-
-
-
-
-
-.carousel-inner img {
-
-  overflow: hidden;
-
-}
-
 p {
-
-  color: #000;
-  text-align: center;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.386);
-
-
-
-}
-
-.small {
-  background-color: #000;
-
-}
-
-.botonSmall {
-  background-color: #000;
-  color: #fff;
-  border: none;
-  text-align: center;
-}
-.botonSmall:hover{
-text-decoration: underline red;
-}
-
-.nombre {
-  background-color: #000;
-  color: #fff;
-  margin-bottom: 0em;
-  text-align: center;
-
-}
-
-.contenedor-prueba {
-  height: 100vh;
-}
-
-.descripcion {
-  height: 100vh;
   color: #000;
   text-align: center;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.386);
 }
-
-.descripcion p:first-child {
-  font-size: 2em;
-  margin-bottom: 0;
-  padding-bottom: 1em;
-}
-
 .flechas {
   opacity: 100 !important;
 }
-
-.redes {
-  height: 100vh;
-}
-
 footer {
   font-size: .9em !important;
+  min-height: 5vh;
+  min-width: 100%;
+  background-color: #000;
 }
-
 footer p {
   margin: 0.1em !important;
   font-style: italic !important;
   color: rgba(255, 255, 255, 0.431) !important;
   padding: 0 !important;
   text-align: center;
-
 }
-.menu img{
-  width: 60%;
+.foto img {
+  width: 100%;
+  height: 50rem;
+  max-height: 20rem;
+  min-height: 20rem;
+  object-position:center;
+  object-fit:cover;
+  overflow: hidden;
 }
-#menuSmall{
-  display: flex;
-  justify-content: center;
 
+.table{
+  background-color: #000;
 }
-
-
-
-
+.table th{
+  color: #fff;
+}
+.table td{
+  color: #fff;
+}
+ul{
+  line-height: 5em;
+  list-style: none;
+  color: #fff;
+  padding: 0 !important;
+  text-align: center;
+}
+.lista a{
+   text-decoration: none;
+   color: #fff;
+}
+.lista a:hover{
+   color: #fff;
+}
+.lista:hover{
+   width: 80%;
+   padding: 0;
+   background-color: rgba(255, 0, 0, 0.646);
+   color: #fff; 
+}
+.active :hover{
+   background-color: #000;
+}
+.active li{
+   color: red;
+}
 
 /*OPENCODE https://codepen.io/realKushal/pen/oYgBZO*/
 .dropdown {
@@ -522,6 +138,7 @@ footer p {
   color: #fff;
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .dropdown div {
@@ -543,3 +160,4 @@ footer p {
 .dropdown .activeSmall:hover {
   background-color: #000;
 }
+
