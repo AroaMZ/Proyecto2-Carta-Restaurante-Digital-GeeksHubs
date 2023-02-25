@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-size: cover;
+}
+html,
+body {
+    min-height: 100vh;
+    background-color: black !important;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: #000;
+}
+h1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    color: #fff;
+}
+ul {
+    line-height: 5em;
+    list-style: none;
+    color: #fff;
+    padding: 0 !important;
+    width: 100%; 
+}
+.lista{
+    background-color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+.lista a {
+    color: #fff;
+    text-decoration: none;
+}
+.inactive :hover{
+    text-decoration: none;
+    color: #fff;
+}
+.lista:hover {
+    width: 100%;
+    padding: 0;
+    background-color: red;
+    color: #fff;
+}
+.active:hover{
+    background-color: #000;
+}
+.active a{
+    text-decoration: none;
+    color: red;
+}
+.active a:hover{
+    text-decoration: none;
+    color: red;
+}
+.dropdown-menu{
+    color: #fff;
+}
+.dropdownMain {
+    border: 1px solid rgb(0, 0, 0);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    text-decoration: none;
+} 
+.dropdownMain :hover{
+   color: #fff;
+}
+/*iconos redes sociales + footer*/
+.bi-facebook {
+    color: #3b5998;
+}
+.bi-facebook:hover {
+    zoom: 130%;
+    cursor: pointer;
+}
+.bi-twitter {
+    color: #55acee;
+}
+.bi-twitter:hover {
+    zoom: 130%;
+    cursor: pointer;
+}
+.bi-instagram {
+    color: #125688;
+}
+.bi-instagram:hover {
+    zoom: 130%;
+    cursor: pointer;
+}
+footer {
+    font-size: .9em !important;
+}
+footer p {
+    margin: 0.1em !important;
+    font-style: italic !important;
+    color: rgba(255, 255, 255, 0.431) !important;
+    padding: 0 !important;
+    text-align: center;
+}
